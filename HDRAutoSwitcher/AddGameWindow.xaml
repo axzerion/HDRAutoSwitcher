@@ -1,0 +1,52 @@
+﻿<Window x:Class="HDRAutoSwitcher.AddGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Game"
+        Height="500"
+        Width="500"
+        WindowStartupLocation="CenterOwner"
+        Background="#121212"
+        Foreground="White">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="16"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="16"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            Text="Select a Steam game"
+            FontSize="22"
+            FontWeight="SemiBold"/>
+
+        <ListBox
+            x:Name="SteamGamesList"
+            Grid.Row="2"
+            Background="#1E1E1E"
+            Foreground="White"
+            BorderBrush="#333333"
+            FontSize="15"/>
+
+        <StackPanel
+            Grid.Row="4"
+            Orientation="Horizontal"
+            HorizontalAlignment="Right">
+
+            <CheckBox
+                x:Name="RequiresHdrCheckBox"
+                Content="Requires HDR"
+                Foreground="White"
+                VerticalAlignment="Center"
+                Margin="0,0,20,0"/>
+
+            <Button
+                Content="Add"
+                Width="90"
+                Height="36"
+                Click="AddButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

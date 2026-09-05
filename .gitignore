@@ -1,0 +1,54 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+out/
+
+# Rider, VS Code
+.idea/
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+
+# Logs
+*.log
+
+# Visual Studio test results
+TestResults/
+
+# Dotnet
+.project.lock.json
+project.lock.json
+*.dotCover
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local user configuration and secrets
+# games.json contains local user executable paths and should not be committed
+games.json
+
+# Ignore user-level temp files
+*.cache
+*.tmp
+
+# Misc
+*.userprefs
+
+# Recommended for .NET
+*.dll
+*.exe
+*.pdb
+
+essentially-ignore:/
+# Ignore everything in the application data folder except the app itself (use with caution)
+# /App_Data/
