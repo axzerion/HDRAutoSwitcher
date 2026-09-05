@@ -1,6 +1,5 @@
 # HDR Auto Switcher
 
-Short description
 A small Windows-only WPF utility that automatically switches HDR on/off when launching configured games and restores the previous HDR state after the game exits.
 
 Current features
@@ -28,6 +27,3 @@ Notes and WIP
 
 Privacy / credentials
 - The project does not require secrets by default. Ensure your local `games.json` is not committed (it may contain absolute executable paths).
-
-License
-- (Add license information if applicable.)
