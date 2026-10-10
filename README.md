@@ -27,3 +27,4 @@ Notes and WIP
 
 Privacy / credentials
 - The project does not require secrets by default. Ensure your local `games.json` is not committed (it may contain absolute executable paths).
+- Feel free to take this and do whatever with it.
